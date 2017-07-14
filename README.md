@@ -24,5 +24,27 @@ curl -X POST -F "image=@/path/example.gif" http://URL/uploadform.cgi
 ```{r, engine='bash', code_block_name} 
 curl -X POST -F "name=user" -F "password=test" http://URL/example.php
 ```
+- Find MAC address
+```{r, engine='bash', code_block_name} 
+ifconfig -a |grep -i hwaddr
+```
+- Exit Commands for Vim file editor (Write file to disk and quit the editor)
+```{r, engine='bash', code_block_name} 
+:wq
+```
+-Write the current file and exit always.
+```{r, engine='bash', code_block_name} 
+:wq! 
+```
+- Insert modules to Linux kernel
+```{r, engine='bash', code_block_name} 
+insmod full_path_of_module 
+```
+- Show the module dependencies
+```{r, engine='bash', code_block_name} 
+depmod -n
+```
+
+
 
 

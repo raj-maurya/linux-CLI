@@ -44,6 +44,15 @@ insmod full_path_of_module
 ```{r, engine='bash', code_block_name} 
 depmod -n
 ```
+- Display files by date descending
+```{r, engine='bash', code_block_name} 
+ls -utlr
+```
+- Display files by date ascending
+```{r, engine='bash', code_block_name} 
+ls -utla
+```
+
 
 
 
